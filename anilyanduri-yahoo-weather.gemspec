@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.add_dependency('hoe', '>= 2.4.0')
 
   s.rdoc_options << '--exclude' << '.'
-  s.has_rdoc = false
+  #s.has_rdoc = false
 
   s.files = Dir['CHANGELOG.rdoc', 'README', 'Manifest.txt', 'Rakefile', 'TODO', 'examples/*', 'lib/**', 'test/**']
   s.require_path = 'lib'
